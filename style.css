@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    color: pink;
+}
+.flex-container {
+    /*display: block;*/
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.image-gallary{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 20px;
+}
+.img{
+    /*width: 300px;*/
+    height: 200px;
+    /*object-fit: fill;*/
+
+}
+.img:hover{
+    transform: scale(120%);
+    opacity: 0.5;
+}
